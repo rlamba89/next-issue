@@ -1,0 +1,61 @@
+.bookDemoSession{
+    padding-top:100px;
+}
+
+.bookDemoSession .bookDemoImg{
+    border-radius: 33px;
+}
+
+.bookDemoSession .bookDemoForm {
+    border: 1px solid;
+    padding: 13px;
+}
+
+.bookDemoSession .bookDemoContainer{
+    width: 76%;
+}
+
+.invalidInput {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #dc3545;
+}
+.loading {
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+@-webkit-keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

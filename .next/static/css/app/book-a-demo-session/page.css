@@ -1,0 +1,53 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[8].use[3]!./src/app/book-a-demo-session/page.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.page_bookDemoSession__hY96Q{
+    padding-top:100px;
+}
+
+.page_bookDemoSession__hY96Q .page_bookDemoImg__us12A{
+    border-radius: 33px;
+}
+
+.page_bookDemoSession__hY96Q .page_bookDemoForm__A1qXJ {
+    border: 1px solid;
+    padding: 13px;
+}
+
+.page_bookDemoSession__hY96Q .page_bookDemoContainer__y01Yj{
+    width: 76%;
+}
+
+.page_invalidInput__nqcjG {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #dc3545;
+}
+.page_loading__7v0Mx {
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.page_loading__7v0Mx:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    animation: page_animate-loading__4DhHi 1s linear infinite;
+}
+
+@keyframes page_animate-loading__4DhHi {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

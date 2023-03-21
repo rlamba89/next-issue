@@ -1,0 +1,23 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #2487ce;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #469fdf;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
